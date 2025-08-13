@@ -1,0 +1,15 @@
+Instructions:
+* Maintain a clean, well-organized project structure.
+* Write clean, well-structured, and readable code — messy code stresses me out.
+* Avoid hardcoding anything — always use configs or environment variables.
+* Follow industry best practices at all times.
+* Use **PNPM** as the package manager.
+* The codebase must be in **TypeScript**, with `"type": "module"` set in `package.json`.
+* Always aim to solve tasks using the fewest lines of code without sacrificing clarity.
+* Optimize the app for production. Use checks like `isProd = process.env.APP_ENV === "production"` and apply all relevant production optimizations.
+* Optimize the app for production. Use checks like `isProd = APP_ENV === "production"` and apply all relevant production optimizations.
+
+For UI:         
+* Build a modern UI using Tailwind and shadcn/ui. Dark theme. Minimal layout. Big typography. Smooth corners. Shadowed cards. Think Raycast or Linear, not Bootstrap.
+
+Shell: I'm using Powershell so avoid syntax errors like instead of using && use ; or curl -> invoke webRequest
