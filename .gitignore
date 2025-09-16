@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 responses/
 .cursorrules
+.env
+pnpm-lock.yaml
